@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            margin: 0%;
+            padding: 0%;
+        }
+        nav{
+            background-color: rgb(17, 17, 34);
+            width: 96%;
+            text-align: center;
+            padding: 25px;
+            position: fixed;
+        }
+        nav:hover{
+            color: aquamarine;
+        }
+        a{
+            padding-left: 10px;
+            color: white;
+        }
+        #logo{
+            height: 25px;
+            padding-right: 700px;
+            
+        }
+        #main{
+            text-align: center;
+            padding-top: 15%;
+        }
+        #form{
+            padding-top: 10px;
+        }
+        p{
+            padding-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href=""><img src="./Screenshot 2023-05-31 175500.png" alt="Logo" id="logo"></a>
+        <a href="./home.html">Home</a>
+        <a href="">News</a>
+        <a href="./about.html">About Us</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./login.html">Login/Signup</a>
+    </nav>
+<div id="main">
+    <h1>Sign Up </h1>
+    <form id="form" action="">
+        <p>Name <input type="text" placeholder="David Paul"></p>
+        <p>Gander <br>
+            Male<input type="radio" name="Gander" id="Gander" >
+            Female <input type="radio" name="Gander" id="Gander">
+        </p>
+        <p>D.O.B <input type="date"></p>
+        <p>Occupation 
+            <select name="" id="">
+                <option value="">--Select--</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Doctor">Doctor</option>
+                <option value="Programmer">Programmer</option>
+                <option value="Business">Business</option>
+                <option value="Trader">Trader</option>
+            </select>
+        </p>
+        <P>Phone <input type="number" placeholder="1234567890"></P>
+        <p>Email <input type="email" placeholder="abc@xyz.com"></p>
+        <input style="margin-top: 10px;" type="submit">
+        <input type="Reset">
+        <br>
+        <br>
+        <a href="./login.html">Already have account? Sign in</a>
+    </form>
+</div>
+</body>
+</html>
